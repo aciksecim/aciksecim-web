@@ -3,18 +3,26 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+<<<<<<< HEAD
 :root {
   --primary-color: #48b7c4; /*Brand Color in tailwind.config.js*/
 }
 
+=======
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
 *, html {
   scroll-behavior: smooth !important;
 }
 body {
   padding: 0;
   margin: 0;
+<<<<<<< HEAD
   font-family: 'Source Sans Pro', sans-serif;
   scroll-behavior: smooth;
+=======
+  font-family: 'Source+Sans+Pro', sans-serif;
+    scroll-behavior: smooth;
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
 }
 
 a {
@@ -35,3 +43,4 @@ a {
     background: black;
   }
 }
+

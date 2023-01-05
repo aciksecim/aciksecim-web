@@ -1,16 +1,24 @@
 /** @type {import('tailwindcss').Config} */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
 const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+<<<<<<< HEAD
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+=======
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
   ],
   theme: {
     extend: {
       colors: {
         dark: "#000000",
+<<<<<<< HEAD
         brandColorLigth: "#8BCCD8",
         brandColor: "#48b7c4",
         brandColorMd: "#3CA3AE",
@@ -20,6 +28,18 @@ module.exports = {
       },
       fontFamily: {
         "aciksecim-font": ["Source Sans Pro", "sans-serif"],
+=======
+        brandColor: "#00BAC6",
+        brandColorLigth: "#6EDBE3",
+        brandColorMd: "#00868F",
+        brandColorDark: "#2B6F83",
+        brandColorGray: "#818181",
+        brandColorLightGray: "#D8E6E2",
+        veryLightGray: "#",
+      },
+      fontFamily: {
+        "aciksecim-font": ["Source+Sans+Pro", "sans-serif"],
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
       },
       fontSize: {
         "2xs": ".65rem",
@@ -38,10 +58,20 @@ module.exports = {
         "7xl": "5rem",
       },
       fontWeight: {
+<<<<<<< HEAD
         light: 300,
         normal: 400,
         medium: 600,
         bold: 700
+=======
+        extralight: 100,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        bold: 700,
+        "extra-bold": 800,
+        black: 900,
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
       },
       lineHeight: {
         60: "3rem",
@@ -73,4 +103,8 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-debug-screens")],
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
