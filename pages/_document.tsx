@@ -15,7 +15,7 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap"></link>
       </Head>
-      <body className={process.env.NODE_ENV === 'development' ? 'debug-screens'  : ''}>
+      <body className={`leading-normal tracking-normal text-white gradient ${process.env.NODE_ENV === 'development' ? 'debug-screens'  : ''}`}>
         <Main />
         <NextScript />
       </body>
