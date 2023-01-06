@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy:prod": "next build && pm2 startOrRestart ecosystem.config.js --env production"
   },
   "dependencies": {
     "next": "13.1.1",
