@@ -3,25 +3,25 @@ import React from 'react'
 const Title1 = () => {
   return (
     <>
-        <section class="bg-white border-b py-8">
-            <div class="container max-w-5xl mx-auto m-8">
-                <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+        <section className="bg-white border-b py-8">
+            <div className="container max-w-5xl mx-auto m-8">
+                <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
                     Title
                 </h1>
-                <div class="w-full mb-4">
-                    <div class="h-1 mx-auto bg-gradient-to-r from-brandColor to-brandColorDark w-64 opacity-25 my-0 py-0 rounded-t"></div>
+                <div className="w-full mb-4">
+                    <div className="h-1 mx-auto bg-gradient-to-r from-brandColor to-brandColorDark w-64 opacity-25 my-0 py-0 rounded-t"></div>
                 </div>
-                <div class="flex flex-wrap">
-                    <div class="w-5/6 sm:w-1/2 p-6">
-                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                <div className="flex flex-wrap">
+                    <div className="w-5/6 sm:w-1/2 p-6">
+                        <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                             Lorem ipsum dolor sit amet
                         </h3>
-                        <p class="text-gray-600 mb-8">
+                        <p className="text-gray-600 mb-8">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                         </p>
                     </div>
-                    <div class="w-full sm:w-1/2 p-6">
-                        <svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
+                    <div className="w-full sm:w-1/2 p-6">
+                        <svg className="w-full sm:h-64 mx-auto" viewBox="0 0 1177 598.5" xmlns="http://www.w3.org/2000/svg">
                         <title>travel booking</title>
                         <path
                             transform="translate(-11.5 -150.75)"
@@ -148,9 +148,9 @@ const Title1 = () => {
                         </svg>
                     </div>
                 </div>
-                <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-                <div class="w-full sm:w-1/2 p-6 mt-6">
-                    <svg class="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
+                <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+                <div className="w-full sm:w-1/2 p-6 mt-6">
+                    <svg className="w-5/6 sm:h-64 mx-auto" viewBox="0 0 1176.60617 873.97852" xmlns="http://www.w3.org/2000/svg">
                     <title>connected world</title>
                     <path
                         transform="translate(-11.697 -13.011)"
@@ -298,12 +298,12 @@ const Title1 = () => {
                     <circle cx="600.35" cy="480.68" r="11.968" fill="#ff6347" />
                     </svg>
                 </div>
-                <div class="w-full sm:w-1/2 p-6 mt-6">
-                    <div class="align-middle">
-                        <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
+                <div className="w-full sm:w-1/2 p-6 mt-6">
+                    <div className="align-middle">
+                        <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
                             Lorem ipsum dolor sit amet
                         </h3>
-                        <p class="text-gray-600 mb-8">
+                        <p className="text-gray-600 mb-8">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
                         </p>
                     </div>

@@ -3,7 +3,7 @@ const Header = () => {
 
   return (
     <div className="headerGradient">
-      <div className="pt-24">
+      <div className="pt-36">
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* --Left Col-- */}
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
