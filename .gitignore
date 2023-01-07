@@ -92,10 +92,5 @@ yarn-error.log*
 *.crt
 *.key
 
-<<<<<<< HEAD
-khi.crt
-khi.key
-=======
->>>>>>> 1007f31553cfb4487db9d74ad95b637d721473c3
 .env
 .vscode
