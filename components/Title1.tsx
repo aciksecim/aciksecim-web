@@ -14,10 +14,13 @@ const Title1 = () => {
                 <div className="flex flex-wrap">
                     <div className="w-5/6 sm:w-1/2 p-6">
                         <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                            Lorem ipsum dolor sit amet
+                            Biz Kimiz?
                         </h3>
                         <p className="text-gray-600 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                            Bizler, Yazılım sektörüne dahil olan veya sektöre girmek isteyen, 
+                            birbirleriyle bilgi ve deneyimlerini paylaşan, farklı alanlarda 
+                            uzmanlaşmış veya uzmanlaşmak isteyen,açık kaynak ilkesini benimseyen
+                            üyelerden oluşan bir grup yazılımcıyız.
                         </p>
                     </div>
                     <div className="w-full sm:w-1/2 p-6">
@@ -301,10 +304,16 @@ const Title1 = () => {
                 <div className="w-full sm:w-1/2 p-6 mt-6">
                     <div className="align-middle">
                         <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                            Lorem ipsum dolor sit amet
+                            Bu Projeye Neden İhtiyaç Duyduk?
                         </h3>
                         <p className="text-gray-600 mb-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                            Demokrasinin vazgeçilmezi seçimlerin odağında her zaman sandık 
+                            güvenliği vardır.Bu güvenlik, ülkelerin seçim yargısı tarafından 
+                            yürütülür. Bugün aynı zamanda siyasi partiler ve araştırma şirketleri 
+                            kendi seçim takip sistemlerini kullanıp doğru ve güvenilir şekilde 
+                            kamuoyuyla paylaşmayı amaçlamaktadır. Uygulama kısmına gelindiğinde 
+                            ise siyasi partiler veyahut çeşitli çıkar gruplarının güdümünde olan 
+                            bu şirketler güvenilirliğini kaybetmektedir.
                         </p>
                     </div>
                 </div>
